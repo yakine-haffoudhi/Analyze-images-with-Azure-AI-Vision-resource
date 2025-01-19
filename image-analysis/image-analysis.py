@@ -22,7 +22,7 @@ def main():
         ai_key = os.getenv('AI_SERVICE_KEY')
 
         # Get image
-        image_file = "C:/Users/MSI/mslearn-ai-vision/Labfiles/01-analyze-images/Python/image-analysis/images/person.jpg"
+        image_file = "images/person.jpg"
         if len(sys.argv) > 1:
             image_file = sys.argv[1]
 
